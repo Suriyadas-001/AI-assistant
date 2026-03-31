@@ -1,0 +1,59 @@
+name: jarvis_ai
+description: JARVIS - Personal AI Assistant
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # TTS & Speech
+  flutter_tts: ^4.0.2
+  speech_to_text: ^6.6.0
+  
+  # Local Storage (remember name)
+  shared_preferences: ^2.2.3
+  
+  # System Info
+  battery_plus: ^6.0.1
+  system_info2: ^4.0.0
+  
+  # Screen Brightness & Volume
+  screen_brightness: ^0.2.2+1
+  volume_controller: ^2.0.7
+  
+  # Background Service (notification bar)
+  flutter_background_service: ^5.0.5
+  flutter_local_notifications: ^17.2.2
+  
+  # Animations
+  animated_text_kit: ^4.2.2
+  flutter_animate: ^4.5.0
+  
+  # Launching Apps
+  android_intent_plus: ^5.0.3
+  url_launcher: ^6.3.0
+  
+  # Screenshot
+  screenshot: ^3.0.0
+  share_plus: ^10.0.2
+  
+  # Vibration
+  vibration: ^2.0.0
+  
+  # Permission
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
